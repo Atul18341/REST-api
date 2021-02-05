@@ -1,0 +1,19 @@
+{
+  "name": "grocoup_backend",
+  "version": "1.0.0",
+  "description": "Ecommerce Website backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Atul Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "node-mysql-admin": "^0.1.8",
+    "nodemon": "^2.0.7"
+  }
+}
